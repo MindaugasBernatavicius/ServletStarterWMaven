@@ -1,0 +1,12 @@
+<web-app>
+    <display-name>Minimal Servlet Web Application</display-name>
+    <!-- 0. Hello Servlet -->
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>cf.mindaugas.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+</web-app>
