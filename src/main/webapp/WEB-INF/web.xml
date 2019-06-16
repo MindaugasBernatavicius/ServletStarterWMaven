@@ -1,5 +1,6 @@
 <web-app>
     <display-name>Minimal Servlet Web Application</display-name>
+
     <!-- 0. Hello Servlet -->
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
@@ -7,6 +8,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/Hello</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -9,7 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencies>
+        <!-- This dependency provides the Servlets themselves -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -22,6 +28,7 @@
 
     <build>
         <finalName>ServletStarterWMaven</finalName>
+        <!-- This plugin allows us to manipulate and configure tomcat from maven -->
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
@@ -34,4 +41,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
