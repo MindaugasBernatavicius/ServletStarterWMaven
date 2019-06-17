@@ -8,6 +8,8 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/Hello</url-pattern>
+        <url-pattern>/HelloServlet</url-pattern>
+        <!-- Default servlet invoked after the specific routes are considered -->
+        <!--<url-pattern>/</url-pattern>-->
     </servlet-mapping>
 </web-app>
